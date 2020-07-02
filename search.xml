@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>WPF学习笔记</title>
+      <link href="/posts/2413418157/"/>
+      <url>/posts/2413418157/</url>
+      
+        <content type="html"><![CDATA[<h3 id="布局属性"><a href="#布局属性" class="headerlink" title="布局属性"></a>布局属性</h3><h4 id="整体属性-Window"><a href="#整体属性-Window" class="headerlink" title="整体属性(Window)"></a>整体属性(Window)</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WindowStyle&#x3D;&quot;None&quot; AllowsTransparency&#x3D;&quot;True&quot;&#x2F;&#x2F;将原有边框隐藏</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WindowStartupLocation&#x3D;&quot;CenterScreen&quot;  &#x2F;&#x2F;加载时居中</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ResizeMode&#x3D;&quot;CanResizeWithGrip&quot; &#x2F;&#x2F;允许拖拽</span><br></pre></td></tr></table></figure><h4 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Grid.Row&#x3D;&quot;1&quot; &#x2F;&#x2F;在第几行 从0开始</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HorizontalAlignment&#x3D;&quot;Right&quot;  &#x2F;&#x2F;放置位置</span><br></pre></td></tr></table></figure><h4 id="UniformGrid"><a href="#UniformGrid" class="headerlink" title="UniformGrid"></a>UniformGrid</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;UniformGrid&gt;</span><br><span class="line">    &lt;Rectangle Fill&#x3D;&quot;Aqua&quot;&#x2F;&gt;</span><br><span class="line">    &lt;Rectangle Fill&#x3D;&quot;Red&quot;&#x2F;&gt;</span><br><span class="line">&lt;&#x2F;UniformGrid&gt;</span><br></pre></td></tr></table></figure><blockquote><p>均分  <a href="https://www.cnblogs.com/Jeffrey-Chou/p/12284692.html" target="_blank" rel="noopener">WPF之UniformGrid使用小记</a></p></blockquote><blockquote><p>★<strong>（重要、常用）</strong> 3. UniformGrid 有两个属性，分别是：Columns 和 Rows ，它们是分别用来指定当前的最大列数和最大的行数，如果只设置了其中一个而不设置另外一个的话，那么没有设置的那个默认为 1；在设置的这两个属性的情况下，UniformGrid 不再会按照行、列数相同来分布，而是按照用户指定的 Columns 和 Rows 来分布；</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> WPF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WPF C# </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>K30p 刷机自备份</title>
       <link href="/posts/2999258805/"/>
       <url>/posts/2999258805/</url>
